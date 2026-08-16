@@ -1,0 +1,8 @@
+# Install AEGIS-Runtime/requirements.txt as well (google-genai,
+# python-dotenv, pydantic) -- APEX builds on top of it and does not
+# duplicate those here.
+
+fastapi
+uvicorn[standard]
+pytest
+httpx
